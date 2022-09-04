@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .progress {
+            background-color: blue;
+            height: 3px;
+            animation: load 1s ease-in-out 1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 120px;
+            background-color: red;
+
+        }
+
+        .main {
+            height: 950px;
+            background-color: yellow;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0vw;
+            }
+
+            50% {
+                width: 50vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+            img{
+                animation: cubic-bezier(.61, -0.63, .53, .43);
+            }
+        
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header>
+    </header>
+    <main>
+        <img src="dragon.jpg" alt="" width="150px">
+    </main>
+
+</body>
+
+</html>
