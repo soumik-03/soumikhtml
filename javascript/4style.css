@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "font-family: 'Poppins', sans-serif";
+}
+.outerdiv{
+    width:100vw;
+    height:100vh;
+    background: grey;
+    display: grid;
+    place-items: center;
+}
+.innerdiv{
+    width: 80vw;
+    height:70vh;
+    display: grid;
+    place-items: cenetr;
+}
+.main-heading
+{
+    padding: 30px;
+    color:aliceblue;
+    text-shadow: 0 1px 8px red;
+    font-size: 100px; 
+}
